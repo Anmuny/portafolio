@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <title>MiPortfolio</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="left rotate">
+            <h1>Mi Portafolio</h1>
+            <h3>Desarrolladora Full Stack</h3>
+        </div>
+        <div class="submain_container">
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li><a href="./assets/pages/acercademi.html">Acerca de mí</a></li>
+                    <li><a href="./assets/pages/mistrabajos.html">Mis Trabajos</a></li>
+                    <li><a href="./assets/pages/contactame.html">Contáctame </a></li>
+                    <div class="search">
+                        <input type="buscar" name="q">
+                        <button>Buscar</button>
+                    </div>
+                </ul>
+               
+            </nav>
+            <div class="center">
+                <p>-Cada proyecto representa un reto y un aprendizaje-<br>
+                    Aquí encontrarás algo de mi trabajo como desarrolladora web full stack</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <footer>
+        <h2>Anmuny Escobar</h2>
+    </footer>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB9jpJ1kg9vTh6QrImTcpJ1wXN195G8ZLQ",
+    authDomain: "portfolio-anmuny-edab6.firebaseapp.com",
+    projectId: "portfolio-anmuny-edab6",
+    storageBucket: "portfolio-anmuny-edab6.appspot.com",
+    messagingSenderId: "565000044022",
+    appId: "1:565000044022:web:9bacead3cb623926a41bd7",
+    measurementId: "G-H44K5YDQHQ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+
+
+</html>
